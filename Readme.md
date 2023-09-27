@@ -8,7 +8,7 @@
 
 ## Installation
 
-1. Clone this repository: `git clone`
+1. Clone this repository: `git clone https://github.com/lokithe5th/tagExtractor`
 
 2. (Optional) It's recommended to create a virtual environment:
 ```
