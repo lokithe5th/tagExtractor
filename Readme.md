@@ -16,6 +16,20 @@ python -m venv venv
 source venv/bin/activate # On Windows use: .\venv\Scripts\activate
 ```
 
+## Usage  
+
+To run in current directory:  
+```
+python tagExtractor.py
+```
+
+To run in a target directory:  
+```
+python tagExtractor.py -p /path/to/specific/directory
+```
+
+The results will be in the same directory from where the scripts are run in a `audit.md` file.
+
 ## Configuration
 
 The `settings.json` file contains the configuration for target file extensions and tags. Here's a sample configuration:
